@@ -165,6 +165,9 @@ html{
     }
 }
 @media all  and (min-width: 640px){
+    article{
+        padding: 2.4rem;
+    }
     .context ul{
         height: 3rem;
     }
@@ -201,6 +204,9 @@ html{
     }
 }
 @media all  and (min-width: 760px){
+    article{
+        padding: 2.4rem;
+    }
     .context ul{
         height: 3rem;
     }

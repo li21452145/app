@@ -597,8 +597,8 @@ hr {
         line-height: 3rem;
         text-align: center;
         color: #333333;
-        border: 1px solid #e1e1e1;
-        border-radius:50% ;
+        /*border: 1px solid #e1e1e1;*/
+        /*border-radius:50% ;*/
     }
 }
 @media all  and (min-width: 375px){
@@ -615,8 +615,8 @@ hr {
         line-height: 3.4rem;
         text-align: center;
         color: #333333;
-        border: 1px solid #e1e1e1;
-        border-radius:50% ;
+        /*border: 1px solid #e1e1e1;*/
+        /*border-radius:50% ;*/
     }
 }
 @media all  and (min-width: 410px){
@@ -633,8 +633,8 @@ hr {
         line-height: 3.4rem;
         text-align: center;
         color: #333333;
-        border: 1px solid #e1e1e1;
-        border-radius:50% ;
+        /*border: 1px solid #e1e1e1;*/
+        /*border-radius:50% ;*/
     }
 }
 @media all  and (min-width: 640px){
@@ -651,8 +651,8 @@ hr {
         line-height: 3.6rem;
         text-align: center;
         color: #333333;
-        border: 1px solid #e1e1e1;
-        border-radius:50% ;
+        /*border: 1px solid #e1e1e1;*/
+        /*border-radius:50% ;*/
     }
 }
 @media all  and (min-width: 760px){
@@ -669,8 +669,8 @@ hr {
         line-height: 3.6rem;
         text-align: center;
         color: #333333;
-        border: 1px solid #e1e1e1;
-        border-radius:50% ;
+        /*border: 1px solid #e1e1e1;*/
+        /*border-radius:50% ;*/
     }
 }
 

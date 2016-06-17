@@ -83,6 +83,9 @@ hr {
 .title .head .clList ul{
     width:85%;
 }
+.navList li a{
+    overflow: hidden;
+}
 .title .head .clList ul li{
     float: left;
     margin-left: 7.14%;
@@ -129,7 +132,6 @@ hr {
     .title .head{
         height: 3rem;
         line-height:3rem;
-        margin-bottom: 1.5rem;
     }
     .title .head .clList span,.title .head .clList ul li{
         margin-top: 0.1rem;
@@ -157,7 +159,6 @@ hr {
     .title .head{
         height: 3.2rem;
         line-height:3.2rem;
-        margin-bottom: 1.5rem;
     }
     .title .head .clList span,.title .head .clList ul li{
         margin-top: 0.1rem;
@@ -186,7 +187,6 @@ hr {
     .title .head{
         height: 3.4rem;
         line-height:3.4rem;
-        margin-bottom: 1.5rem;
     }
     .title .head .clList span,.title .head .clList ul li{
         margin-top: 0.1rem;
@@ -240,7 +240,6 @@ hr {
     .title .head{
         height: 4rem;
         line-height:4rem;
-
     }
     .title .head .clList span,.title .head .clList ul li{
         margin-top: 0.1rem;
@@ -300,8 +299,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 2.8rem;
     }
@@ -350,8 +347,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 2.8rem;
     }
@@ -395,8 +390,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 3rem;
     }
@@ -440,8 +433,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 3.2rem;
     }
@@ -485,8 +476,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 3.4rem;
     }
@@ -531,8 +520,6 @@ hr {
     .header .nav .navList li{
         position: relative;
         float: left;
-        border: 0.1rem solid transparent;
-        border-radius:1rem;
         background: none;
         line-height: 3.8rem;
     }

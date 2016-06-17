@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html{
+    font-size: 10px;
+}
 body{
     -moz-user-select: none;
     -khtml-user-select: none;

@@ -2,6 +2,9 @@
 html,body{
     width: 100%;
 }
+html{
+    font-size: 10px;
+}
 @media all  and (min-width: 320px){
     h1{
         font-size: 1.6rem;
@@ -123,7 +126,7 @@ html,body{
         line-height: 2.4rem;
     }
     .context1 .box2 p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 2.4rem;
     }
     .list{
@@ -154,12 +157,12 @@ html,body{
         font-size: 1.8rem;
     }
     .context1 .box2 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         height:3rem;
         line-height: 3rem;
     }
     .context1 .box2 p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 3rem;
     }
     .list{
@@ -195,7 +198,7 @@ html,body{
         line-height: 3.4rem;
     }
     .context1 .box2 p{
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 3.4rem;
     }
     .list{
@@ -212,10 +215,10 @@ html,body{
     }
     .list li a{
         display: block;
-        width: 1.2rem;
-        height: 1.2rem;
+        width: 1.4rem;
+        height: 1.4rem;
         border: .1rem solid #cccccc;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: darkblue;
         line-height: 1.2rem;
         text-align: center;
@@ -223,7 +226,9 @@ html,body{
 }
 
 
-
+.xmp{
+    padding: 0 1%;
+}
 
 h1{
     color: coral;

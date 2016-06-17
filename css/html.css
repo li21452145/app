@@ -1,0 +1,282 @@
+@charset "UTF-8";
+html,body{
+    width: 100%;
+}
+@media all  and (min-width: 320px){
+    h1{
+        font-size: 1.6rem;
+    }
+    .context1 .box2 {
+        font-size: 1.2rem;
+        height:2rem;
+        line-height: 2rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .list{
+        position: fixed;
+        top:12.1rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+@media all  and (min-width: 375px){
+    h1{
+        font-size: 1.6rem;
+    }
+    .context1 .box2 {
+        font-size: 1.4rem;
+        height:2.2rem;
+        line-height: 2.2rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .list{
+        position: fixed;
+        top:11rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+@media all  and (min-width: 410px){
+    h1{
+        padding-top: 1rem;
+        font-size: 1.8rem;
+    }
+    .context1 .box2 {
+        font-size: 1.6rem;
+        height:2.4rem;
+        line-height: 2.4rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .list{
+        position: fixed;
+        top:12.1rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+@media all  and (min-width: 480px){
+    h1{
+        font-size: 1.8rem;
+    }
+    .context1 .box2 {
+        font-size: 1.6rem;
+        height:2.4rem;
+        line-height: 2.4rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .list{
+        position: fixed;
+        top:12.1rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+@media all  and (min-width: 640px){
+    h1{
+        font-size: 1.8rem;
+    }
+    .context1 .box2 {
+        font-size: 1.6rem;
+        height:3rem;
+        line-height: 3rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .list{
+        position: fixed;
+        top:13.6rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+@media all  and (min-width: 760px){
+    h1{
+        font-size: 2rem;
+    }
+    .context1 .box2 {
+        font-size: 1.8rem;
+        height:3.4rem;
+        line-height: 3.4rem;
+    }
+    .context1 .box2 p{
+        font-size: 1.8rem;
+        line-height: 3.4rem;
+    }
+    .list{
+        position: fixed;
+        top:14rem;
+        right: 1rem;
+    }
+    .list li{
+        margin-right: 1rem;
+        float: left;
+        width:1.2rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .list li a{
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: .1rem solid #cccccc;
+        font-size: 1.2rem;
+        color: darkblue;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+
+
+
+
+h1{
+    color: coral;
+    text-align: center;
+}
+.topss{
+    padding:.1rem 0 ;
+    height: 2rem;
+    font-size: 1rem;
+}
+.topss span {
+    margin-right: 1.2rem;
+}
+.topss{
+    text-align: center;
+    color: #eeeeee;
+}
+.topss a{
+    margin-left: 1.2rem;
+    color: #ccc;
+}
+.topss a:target{
+    color: blue;
+}
+
+.cons{
+    border-top:.2rem solid #eeeeee ;
+}
+.context1 .box2{
+    margin: 0 auto;
+    width: 96%;
+    padding: 0 2%;
+    text-align: left;
+}
+.context1 .box2 p{
+    font-weight: 900;
+}
+.context1 #con1{
+    display: none;
+}
+.context1 #con2{
+    display: none;
+}
+.context1 #con3{
+    display: none;
+}
+.list li a:hover{
+    background: #eeeeee;
+    color: deepskyblue;
+}
+.list li.bg{
+    background: #eeeeee;
+}
+.cons div.bg{
+    display: block;
+}

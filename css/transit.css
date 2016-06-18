@@ -141,6 +141,7 @@ hr {
 .title .head .clList span{
    width: 7.14%;
     margin:0 3% ;
+    font-size: 1rem;
 }
 .title .head .clList span,.title .head .clList ul{
     float: left;

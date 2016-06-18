@@ -28,7 +28,7 @@ html{
 @media all  and (min-width: 480px){
     .RIGHT{
         position: fixed;
-        top:3rem;
+        top:7rem;
         left: .3rem;
         z-index: 60;
     }
@@ -39,7 +39,7 @@ html{
     }
     .RIGHT{
         position: fixed;
-        top:.3rem;
+        top:7rem;
         left: .1rem;
         z-index: 60;
     }
@@ -50,7 +50,7 @@ html{
     }
     .RIGHT{
         position: fixed;
-        top:3rem;
+        top:7rem;
         left: .3rem;
         z-index: 60;
     }

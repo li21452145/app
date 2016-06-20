@@ -147,26 +147,44 @@
             </div>
             <div class="RIGHT" id="rs1">
                 <h1 id="hi">更多</h1>
-                <a href="http://nodeapi.ucdok.com/#/api/documentation.html" target="_blank">文档</a>
-                <a href="http://nodeapi.ucdok.com/#/api/synopsis.html" target="_blank">概述</a>
-                <a href="http://nodeapi.ucdok.com/#/api/assert.html" target="_blank">模块</a>
-                <a href="http://nodeapi.ucdok.com/#/api/cluster.html" target="_blank">集群</a>
-                <a href="http://nodeapi.ucdok.com/#/api/console.html" target="_blank">控制</a>
-                <a href="http://nodeapi.ucdok.com/#/api/child_process.html" target="_blank">进程</a>
-                <a href="http://nodeapi.ucdok.com/#/api/crypto.html" target="_blank">加密</a>
-                <a href="http://nodeapi.ucdok.com/api/globals.html" target="_blank">全局</a>
-                <a href="http://nodeapi.ucdok.com/api/http.html" target="_blank">HTTP</a>
+                <div>
+                    <a href="http://nodeapi.ucdok.com/#/api/documentation.html" target="_blank">文档</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/synopsis.html" target="_blank">概述</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/assert.html" target="_blank">模块</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/cluster.html" target="_blank">集群</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/console.html" target="_blank">控制</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/child_process.html" target="_blank">进程</a>
+                    <a href="http://nodeapi.ucdok.com/#/api/crypto.html" target="_blank">加密</a>
+                    <a href="http://nodeapi.ucdok.com/api/globals.html" target="_blank">全局</a>
+                    <a href="http://nodeapi.ucdok.com/api/http.html" target="_blank">HTTP</a>
+                </div>
             </div>
         </div>
     </article>
 <footer class="min_width bottm" id="bottmS">
     <div class="width">
-        <p>邮箱：1126770175@qq.com<span>如有转载请注明注明出处</span></p>
+        <p>邮箱：1126770175@qq.com<span>如有转载请注明出处</span></p>
         <p>版权归个人所有</p>
     </div>
 </footer>
 <div class="tops" id="linkTo"  title="回到顶部">顶</div>
 </body>
 <script type="text/javascript">
+    !function(){
+        var  rs1=document.getElementById("rs1");
+        var hi=document.getElementById("hi");
+        var H=rs1.scrollHeight;
+        var h=rs1.offsetHeight;
+        console.log(H,h)
+        hi.onclick=function(){
+            if(hi.innerHTML=="更多"){
+               zhiAnimate(rs1,{height:H},300);
+                hi.innerHTML="收起";
+            }else if(hi.innerHTML=="收起"){
+                zhiAnimate(rs1,{height:h},300);
+                hi.innerHTML="更多";
+            }
+        }
+    }();
 </script>
 </html>
